@@ -17,7 +17,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/sales', saleRoutes);
 // app.use('/api/summary', summaryRoutes);
 
-const PORT = process.env.X_ZOHO_CATALYST_LISTEN_PORT || 3001
+const PORT = process.env.PORT || 3001
 
 sequelize.sync({ alter: true }).then(() => {
     app.listen(PORT, () => {
