@@ -1,0 +1,74 @@
+{
+  "defaults": {
+    "project": 3,
+    "env": 1
+  },
+  "actives": {
+    "project": 3,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "9223000000006075",
+      "name": "gst-billing-system-backend",
+      "domain": {
+        "id": "50021899528",
+        "name": "gst-billing-system-backend-60031951107.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60031951107",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "id": "9223000000007001",
+      "name": "gst-billing-sys-backend",
+      "domain": {
+        "id": "50021899450",
+        "name": "gst-billing-sys-backend-60031951107.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60031951107",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "id": "9223000000006119",
+      "name": "gst-backend",
+      "domain": {
+        "id": "50021899451",
+        "name": "gst-backend-60031951107.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60031951107",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "gst-backend",
+            "id": "9223000000006119",
+            "project_type": "Live"
+          },
+          "is_default": true,
+          "action_required": false
+        }
+      ]
+    }
+  ]
+}
