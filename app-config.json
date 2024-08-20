@@ -1,6 +1,6 @@
 { 
-    "command": "node server.js",
-    "buildPath": "D:\\CODDIINNGG\\CODIIIIINGGGG\\NEW-PROJECTS\\gst-billing-system\\gst-management-backend",
+    "command": "node index.js",
+    "buildPath": "gst-billing-system\\gst-management-backend",
     "stack" :"node18",
     "env_variable":{},
     "memory":256,
