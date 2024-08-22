@@ -17,11 +17,14 @@ app.use('/api/products', productRoutes);
 app.use('/api/sales', saleRoutes);
 // app.use('/api/summary', summaryRoutes);
 
+app.get('/', (req, res) => {
+    res.send("Backend running successfully...")
+})
 const PORT = process.env.PORT || 3001
 
 sequelize.sync({ alter: true }).then(() => {
     app.listen(PORT, () => {
-        console.log(`Server is running on http://localhost:${PORT}`);
+        console.log(`Server is running on https://localhost:${PORT}`);
     });
 }).catch(err => {
     console.error('Unable to connect to the database:', err);
